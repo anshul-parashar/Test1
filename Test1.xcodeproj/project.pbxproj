@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3DDC984B230425BF00672AE3 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDC984A230425BF00672AE3 /* Employee.swift */; };
+		3DDC984D2304397E00672AE3 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDC984C2304397E00672AE3 /* Vehicle.swift */; };
 		3DF8EDB12301895F000B5524 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF8EDB02301895F000B5524 /* AppDelegate.swift */; };
 		3DF8EDB32301895F000B5524 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF8EDB22301895F000B5524 /* ViewController.swift */; };
 		3DF8EDB62301895F000B5524 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DF8EDB42301895F000B5524 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		3DDC984A230425BF00672AE3 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		3DDC984C2304397E00672AE3 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Vehicle.swift; path = Test1/Vehicle.swift; sourceTree = "<group>"; };
 		3DF8EDAD2301895F000B5524 /* Test1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF8EDB02301895F000B5524 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DF8EDB22301895F000B5524 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		3DF8EDA42301895F000B5524 = {
 			isa = PBXGroup;
 			children = (
+				3DDC984C2304397E00672AE3 /* Vehicle.swift */,
 				3DDC984A230425BF00672AE3 /* Employee.swift */,
 				3DF8EDAF2301895F000B5524 /* Test1 */,
 				3DF8EDC423018960000B5524 /* Test1Tests */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DDC984D2304397E00672AE3 /* Vehicle.swift in Sources */,
 				3DF8EDB32301895F000B5524 /* ViewController.swift in Sources */,
 				3DDC984B230425BF00672AE3 /* Employee.swift in Sources */,
 				3DF8EDB12301895F000B5524 /* AppDelegate.swift in Sources */,
