@@ -18,5 +18,3 @@ git.added_files.each do |file|
 		fail("Failed for file (#{file})")
 	end
 end
-
-
