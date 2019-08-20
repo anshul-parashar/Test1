@@ -6,5 +6,5 @@
         # debug log
         set -x
         bundle install
-        pwd
+        ls
         bundle exec danger
