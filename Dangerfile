@@ -11,3 +11,11 @@ warn("Big PR") if git.lines_of_code > 500
 # Don't let testing shortcuts get into master by accident
 fail("fdescribe left in tests") if `grep -r fdescribe specs/ `.length > 1
 fail("fit left in tests") if `grep -r fit specs/ `.length > 1
+
+
+# Fail if a new file is added to a root directory
+git.added_files.each do |file|
+	if !file.include?("/")
+		fail("Failed because file is added in root directory: (#{file})")
+	end
+end
